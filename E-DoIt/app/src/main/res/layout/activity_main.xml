@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.e_doit.e_doit.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="60dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <ImageView
+            android:src="@drawable/apps_logo2"
+            android:layout_width="136dp"
+            android:layout_height="136dp"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:onClick="register"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="12dp"
+            android:padding="12dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:onClick="login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</ScrollView>
